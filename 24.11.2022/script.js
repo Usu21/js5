@@ -20,8 +20,8 @@ let arr3 = [1,2,3,]
 arr3.push(4,5,)
 console.log(arr3)
 //4
-let names = prompt ('Имя,Фамилия,Возраст');
-let [Name,lestName,age] = names.split(',');
+let names = prompt ('Имя, Фамилия, Возраст');
+let [Name, lestName, age] = names.split(', ');
 console.log(Name)
 console.log(lestName)
 console.log(age)
